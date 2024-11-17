@@ -17,6 +17,9 @@ func main() {
 		})
 	})
 
+	r.GET("/dream", func(c *gin.Context) {
+		c.String(200, "Dream big, stay focused, and achieve greatness!")
+	})
 
 	r.Run(":3000")
 }
