@@ -11,5 +11,12 @@ func main() {
 		c.String(200, "Yonatan Alebachew")
 	})
 
+	r.GET("/hobby", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"hobby": "Playing Soccer",
+		})
+	})
+
+
 	r.Run(":3000")
 }
