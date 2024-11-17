@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: basic-web-server
+    env: go
+    buildCommand: go build -o server
+    startCommand: ./server
+    runtime: go1.23.3
