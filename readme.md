@@ -2,9 +2,9 @@
 
 This is a simple web server built using Go and the Gin framework. It has three routes:
 
-- `/name`: Returns my full name.
-- `/hobby`: Returns my favorite hobby.
-- `/dream`: Returns a motivational message.
+- `https://stage-1-task-2.onrender.com/name`: Returns my full name.
+- `https://stage-1-task-2.onrender.com/hobby`: Returns my favorite hobby.
+- `https://stage-1-task-2.onrender.com/dream`: Returns a motivational message.
 
 ## Setup Instructions
 
